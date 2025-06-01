@@ -20,11 +20,11 @@ To perform Parts of speech identification and Synonym using Natural Language Pro
 
 > **Step 5**:Iterate through each word in the tokenized text.<br>
 
-	•	Perform part-of-speech tagging on the tokenized words using nltk.pos_tag.<br>
-	•	Print each word along with its corresponding part-of-speech tag.<br>
-	•	For each verb , iterate through its synsets (sets of synonyms) using wordnet.synsets(word).<br>
-	•	Extract synonyms and antonyms using lemma.name() and lemma.antonyms()[0].name() respectively.<br>
-	•	Print the unique sets of synonyms and antonyms.
+•	Perform part-of-speech tagging on the tokenized words using nltk.pos_tag.<br>
+•	Print each word along with its corresponding part-of-speech tag.<br>
+•	For each verb , iterate through its synsets (sets of synonyms) using wordnet.synsets(word).<br>
+•	Extract synonyms and antonyms using lemma.name() and lemma.antonyms()[0].name() respectively.<br>
+•	Print the unique sets of synonyms and antonyms.
 
 ## <H3>Program:</H3>
 
